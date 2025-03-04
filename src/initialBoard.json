@@ -1,0 +1,1058 @@
+[
+    {
+        "id": 0,
+        "name": "A1",
+        "position": {
+            "x": 0,
+            "y": 0
+        },
+        "hasPiece": true,
+        "piece": {
+            "color": "white",
+            "type": "rook"
+        },
+        "canBeMoved": true,
+        "canBeTaken": false,
+        "canMoveHere": false
+    },
+    {
+        "id": 1,
+        "name": "B1",
+        "position": {
+            "x": 1,
+            "y": 0
+        },
+        "hasPiece": true,
+        "piece": {
+            "color": "white",
+            "type": "knight"
+        },
+        "canBeMoved": true,
+        "canBeTaken": false,
+        "canMoveHere": false
+        
+    },
+    {
+        "id": 2,
+        "name": "C1",
+        "position": {
+            "x": 2,
+            "y": 0
+        },
+        "hasPiece": true,
+        "piece": {
+            "color": "white",
+            "type": "bishop"
+        },
+        "canBeMoved": true,
+        "canBeTaken": false,
+        "canMoveHere": false
+    },
+    {
+        "id": 3,
+        "name": "D1",
+        "position": {
+            "x": 3,
+            "y": 0
+        },
+        "hasPiece": true,
+        "piece": {
+            "color": "white",
+            "type": "queen"
+        },
+        "canBeMoved": true,
+        "canBeTaken": false,
+        "canMoveHere": false
+    },
+    {
+        "id": 4,
+        "name": "E1",
+        "position": {
+            "x": 4,
+            "y": 0
+        },
+        "hasPiece": true,
+        "piece": {
+            "color": "white",
+            "type": "king"
+        },
+        "canBeMoved": true,
+        "canBeTaken": false,
+        "canMoveHere": false
+        
+    },
+    {
+        "id": 5,
+        "name": "F1",
+        "position": {
+            "x": 5,
+            "y": 0
+        },
+        "hasPiece": true,
+        "piece": {
+            "color": "white",
+            "type": "bishop"
+        },
+        "canBeMoved": true,
+        "canBeTaken": false,
+        "canMoveHere": false
+        
+    },
+    {
+        "id": 6,
+        "name": "G1",
+        "position": {
+            "x": 6,
+            "y": 0
+        },
+        "hasPiece": true,
+        "piece": {
+            "color": "white",
+            "type": "knight"
+        },
+        "canBeMoved": true,
+        "canBeTaken": false,
+        "canMoveHere": false
+        
+    },
+    {
+        "id": 7,
+        "name": "H1",
+        "position": {
+            "x": 7,
+            "y": 0
+        },
+        "hasPiece": true,
+        "piece": {
+            "color": "white",
+            "type": "rook"
+        },
+        "canBeMoved": true,
+        "canBeTaken": false,
+        "canMoveHere": false
+        
+    },
+    {
+        "id": 8,
+        "name": "A2",
+        "position": {
+            "x": 0,
+            "y": 1
+        },
+        "hasPiece": true,
+        "piece": {
+            "color": "white",
+            "type": "pawn"
+        },
+        "canBeMoved": true,
+        "canBeTaken": false,
+        "canMoveHere": false
+        
+    },
+    {
+        "id": 9,
+        "name": "B2",
+        "position": {
+            "x": 1,
+            "y": 1
+        },
+        "hasPiece": true,
+        "piece": {
+            "color": "white",
+            "type": "pawn"
+        },
+        "canBeMoved": true,
+        "canBeTaken": false,
+        "canMoveHere": false
+        
+    },
+    {
+        "id": 10,
+        "name": "C2",
+        "position": {
+            "x": 2,
+            "y": 1
+        },
+        "hasPiece": true,
+        "piece": {
+            "color": "white",
+            "type": "pawn"
+        },
+        "canBeMoved": true,
+        "canBeTaken": false,
+        "canMoveHere": false
+        
+    },
+    {
+        "id": 11,
+        "name": "D2",
+        "position": {
+            "x": 3,
+            "y": 1
+        },
+        "hasPiece": true,
+        "piece": {
+            "color": "white",
+            "type": "pawn"
+        },
+        "canBeMoved": true,
+        "canBeTaken": false,
+        "canMoveHere": false
+        
+    },
+    {
+        "id": 12,
+        "name": "E2",
+        "position": {
+            "x": 4,
+            "y": 1
+        },
+        "hasPiece": true,
+        "piece": {
+            "color": "white",
+            "type": "pawn"
+        },
+        "canBeMoved": true,
+        "canBeTaken": false,
+        "canMoveHere": false
+        
+    },
+    {
+        "id": 13,
+        "name": "F2",
+        "position": {
+            "x": 5,
+            "y": 1
+        },
+        "hasPiece": true,
+        "piece": {
+            "color": "white",
+            "type": "pawn"
+        },
+        "canBeMoved": true,
+        "canBeTaken": false,
+        "canMoveHere": false
+        
+    },
+    {
+        "id": 14,
+        "name": "G2",
+        "position": {
+            "x": 6,
+            "y": 1
+        },
+        "hasPiece": true,
+        "piece": {
+            "color": "white",
+            "type": "pawn"
+        },
+        "canBeMoved": true,
+        "canBeTaken": false,
+        "canMoveHere": false
+        
+    },
+    {
+        "id": 15,
+        "name": "H2",
+        "position": {
+            "x": 7,
+            "y": 1
+        },
+        "hasPiece": true,
+        "piece": {
+            "color": "white",
+            "type": "pawn"
+        },
+        "canBeMoved": true,
+        "canBeTaken": false,
+        "canMoveHere": false
+        
+    },
+
+    {
+        "id": 16,
+        "name": "A3",
+        "position": {
+            "x": 0,
+            "y": 2
+        },
+        "hasPiece": false,
+        "piece": {
+            "color": "",
+            "type": ""
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+        
+    },
+    {
+        "id": 17,
+        "name": "B3",
+        "position": {
+            "x": 1,
+            "y": 2
+        },
+        "hasPiece": false,
+        "piece": {
+            "color": "",
+            "type": ""
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+    },
+    {
+        "id": 18,
+        "name": "C3",
+        "position": {
+            "x": 2,
+            "y": 2
+        },
+        "hasPiece": false,
+        "piece": {
+            "color": "",
+            "type": ""
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+    },
+    {
+        "id": 19,
+        "name": "D3",
+        "position": {
+            "x": 3,
+            "y": 2
+        },
+        "hasPiece": false,
+        "piece": {
+            "color": "",
+            "type": ""
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+    },
+    {
+        "id": 20,
+        "name": "E3",
+        "position": {
+            "x": 4,
+            "y": 2
+        },
+        "hasPiece": false,
+        "piece": {
+            "color": "",
+            "type": ""
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+    },
+    {
+        "id": 21,
+        "name": "F3",
+        "position": {
+            "x": 5,
+            "y": 2
+        },
+        "hasPiece": false,
+        "piece": {
+            "color": "",
+            "type": ""
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+    },
+    {
+        "id": 22,
+        "name": "G3",
+        "position": {
+            "x": 6,
+            "y": 2
+        },
+        "hasPiece": false,
+        "piece": {
+            "color": "",
+            "type": ""
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+    },
+    {
+        "id": 23,
+        "name": "H3",
+        "position": {
+            "x": 7,
+            "y": 2
+        },
+        "hasPiece": false,
+        "piece": {
+            "color": "",
+            "type": ""
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+    },
+    {
+        "id": 24,
+        "name": "A4",
+        "position": {
+            "x": 0,
+            "y": 3
+        },
+        "hasPiece": false,
+        "piece": {
+            "color": "",
+            "type": ""
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+        
+    },
+    {
+        "id": 25,
+        "name": "B4",
+        "position": {
+            "x": 1,
+            "y": 3
+        },
+        "hasPiece": false,
+        "piece": {
+            "color": "",
+            "type": ""
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+    },
+    {
+        "id": 26,
+        "name": "C4",
+        "position": {
+            "x": 2,
+            "y": 3
+        },
+        "hasPiece": false,
+        "piece": {
+            "color": "",
+            "type": ""
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+    },
+    {
+        "id": 27,
+        "name": "D4",
+        "position": {
+            "x": 3,
+            "y": 3
+        },
+        "hasPiece": false,
+        "piece": {
+            "color": "",
+            "type": ""
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+    },
+    {
+        "id": 28,
+        "name": "E4",
+        "position": {
+            "x": 4,
+            "y": 3
+        },
+        "hasPiece": false,
+        "piece": {
+            "color": "",
+            "type": ""
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+    },
+    {
+        "id": 29,
+        "name": "F4",
+        "position": {
+            "x": 5,
+            "y": 3
+        },
+        "hasPiece": false,
+        "piece": {
+            "color": "",
+            "type": ""
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+    },
+    {
+        "id": 30,
+        "name": "G4",
+        "position": {
+            "x": 6,
+            "y": 3
+        },
+        "hasPiece": false,
+        "piece": {
+            "color": "",
+            "type": ""
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+    },
+    {
+        "id": 31,
+        "name": "H4",
+        "position": {
+            "x": 7,
+            "y": 3
+        },
+        "hasPiece": false,
+        "piece": {
+            "color": "",
+            "type": ""
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+    },
+    {
+        "id": 32,
+        "name": "A5",
+        "position": {
+            "x": 0,
+            "y": 4
+        },
+        "hasPiece": false,
+        "piece": {
+            "color": "",
+            "type": ""
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+        
+    },
+    {
+        "id": 33,
+        "name": "B5",
+        "position": {
+            "x": 1,
+            "y": 4
+        },
+        "hasPiece": false,
+        "piece": {
+            "color": "",
+            "type": ""
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+    },
+    {
+        "id": 34,
+        "name": "C5",
+        "position": {
+            "x": 2,
+            "y": 4
+        },
+        "hasPiece": false,
+        "piece": {
+            "color": "",
+            "type": ""
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+    },
+    {
+        "id": 35,
+        "name": "D5",
+        "position": {
+            "x": 3,
+            "y": 4
+        },
+        "hasPiece": false,
+        "piece": {
+            "color": "",
+            "type": ""
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+    },
+    {
+        "id": 36,
+        "name": "E5",
+        "position": {
+            "x": 4,
+            "y": 4
+        },
+        "hasPiece": false,
+        "piece": {
+            "color": "",
+            "type": ""
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+    },
+    {
+        "id": 37,
+        "name": "F5",
+        "position": {
+            "x": 5,
+            "y": 4
+        },
+        "hasPiece": false,
+        "piece": {
+            "color": "",
+            "type": ""
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+    },
+    {
+        "id": 38,
+        "name": "G5",
+        "position": {
+            "x": 6,
+            "y": 4
+        },
+        "hasPiece": false,
+        "piece": {
+            "color": "",
+            "type": ""
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+    },
+    {
+        "id": 39,
+        "name": "H5",
+        "position": {
+            "x": 7,
+            "y": 4
+        },
+        "hasPiece": false,
+        "piece": {
+            "color": "",
+            "type": ""
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+    },
+    {
+        "id": 40,
+        "name": "A6",
+        "position": {
+            "x": 0,
+            "y": 5
+        },
+        "hasPiece": false,
+        "piece": {
+            "color": "",
+            "type": ""
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+        
+    },
+    {
+        "id": 41,
+        "name": "B6",
+        "position": {
+            "x": 1,
+            "y": 5
+        },
+        "hasPiece": false,
+        "piece": {
+            "color": "",
+            "type": ""
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+    },
+    {
+        "id": 42,
+        "name": "C6",
+        "position": {
+            "x": 2,
+            "y": 5
+        },
+        "hasPiece": false,
+        "piece": {
+            "color": "",
+            "type": ""
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+    },
+    {
+        "id": 43,
+        "name": "D6",
+        "position": {
+            "x": 3,
+            "y": 5
+        },
+        "hasPiece": false,
+        "piece": {
+            "color": "",
+            "type": ""
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+    },
+    {
+        "id": 44,
+        "name": "E6",
+        "position": {
+            "x": 4,
+            "y": 5
+        },
+        "hasPiece": false,
+        "piece": {
+            "color": "",
+            "type": ""
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+    },
+    {
+        "id": 45,
+        "name": "F6",
+        "position": {
+            "x": 5,
+            "y": 5
+        },
+        "hasPiece": false,
+        "piece": {
+            "color": "",
+            "type": ""
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+    },
+    {
+        "id": 46,
+        "name": "G6",
+        "position": {
+            "x": 6,
+            "y": 5
+        },
+        "hasPiece": false,
+        "piece": {
+            "color": "",
+            "type": ""
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+    },
+    {
+        "id": 47,
+        "name": "H6",
+        "position": {
+            "x": 7,
+            "y": 5
+        },
+        "hasPiece": false,
+        "piece": {
+            "color": "",
+            "type": ""
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+    },
+    {
+        "id": 48,
+        "name": "A6",
+        "position": {
+            "x": 0,
+            "y": 6
+        },
+        "hasPiece": true,
+        "piece": {
+            "color": "black",
+            "type": "pawn"
+        },
+        "canBeMoved": true,
+        "canBeTaken": false,
+        "canMoveHere": false
+        
+    },
+    {
+        "id": 49,
+        "name": "B6",
+        "position": {
+            "x": 1,
+            "y": 6
+        },
+        "hasPiece": true,
+        "piece": {
+            "color": "black",
+            "type": "pawn"
+        },
+        "canBeMoved": true,
+        "canBeTaken": false,
+        "canMoveHere": false
+        
+    },
+    {
+        "id": 50,
+        "name": "C6",
+        "position": {
+            "x": 2,
+            "y": 6
+        },
+        "hasPiece": true,
+        "piece": {
+            "color": "black",
+            "type": "pawn"
+        },
+        "canBeMoved": true,
+        "canBeTaken": false,
+        "canMoveHere": false
+        
+    },
+    {
+        "id": 51,
+        "name": "D6",
+        "position": {
+            "x": 3,
+            "y": 6
+        },
+        "hasPiece": true,
+        "piece": {
+            "color": "black",
+            "type": "pawn"
+        },
+        "canBeMoved": true,
+        "canBeTaken": false,
+        "canMoveHere": false
+        
+    },
+    {
+        "id": 52,
+        "name": "E6",
+        "position": {
+            "x": 4,
+            "y": 6
+        },
+        "hasPiece": true,
+        "piece": {
+            "color": "black",
+            "type": "pawn"
+        },
+        "canBeMoved": true,
+        "canBeTaken": false,
+        "canMoveHere": false
+        
+    },
+    {
+        "id": 53,
+        "name": "F6",
+        "position": {
+            "x": 5,
+            "y": 6
+        },
+        "hasPiece": true,
+        "piece": {
+            "color": "black",
+            "type": "pawn"
+        },
+        "canBeMoved": true,
+        "canBeTaken": false,
+        "canMoveHere": false
+        
+    },
+    {
+        "id": 54,
+        "name": "G6",
+        "position": {
+            "x": 6,
+            "y": 6
+        },
+        "hasPiece": true,
+        "piece": {
+            "color": "black",
+            "type": "pawn"
+        },
+        "canBeMoved": true,
+        "canBeTaken": false,
+        "canMoveHere": false
+        
+    },
+    {
+        "id": 55,
+        "name": "H6",
+        "position": {
+            "x": 7,
+            "y": 6
+        },
+        "hasPiece": true,
+        "piece": {
+            "color": "black",
+            "type": "pawn"
+        },
+        "canBeMoved": true,
+        "canBeTaken": false,
+        "canMoveHere": false
+        
+    },
+    {
+        "id": 56,
+        "name": "A7",
+        "position": {
+            "x": 0,
+            "y": 7
+        },
+        "hasPiece": true,
+        "piece": {
+            "color": "black",
+            "type": "rook"
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+    },
+    {
+        "id": 57,
+        "name": "B7",
+        "position": {
+            "x": 1,
+            "y": 7
+        },
+        "hasPiece": true,
+        "piece": {
+            "color": "black",
+            "type": "knight"
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+        
+    },
+    {
+        "id": 58,
+        "name": "C7",
+        "position": {
+            "x": 2,
+            "y": 7
+        },
+        "hasPiece": true,
+        "piece": {
+            "color": "black",
+            "type": "bishop"
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+        
+    },
+    {
+        "id": 59,
+        "name": "D7",
+        "position": {
+            "x": 3,
+            "y": 7
+        },
+        "hasPiece": true,
+        "piece": {
+            "color": "black",
+            "type": "queen"
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+        
+    },
+    {
+        "id": 60,
+        "name": "E7",
+        "position": {
+            "x": 4,
+            "y": 7
+        },
+        "hasPiece": true,
+        "piece": {
+            "color": "black",
+            "type": "king"
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+        
+    },
+    {
+        "id": 61,
+        "name": "F7",
+        "position": {
+            "x": 5,
+            "y": 7
+        },
+        "hasPiece": true,
+        "piece": {
+            "color": "black",
+            "type": "bishop"
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+        
+    },
+    {
+        "id": 62,
+        "name": "G7",
+        "position": {
+            "x": 6,
+            "y": 7
+        },
+        "hasPiece": true,
+        "piece": {
+            "color": "black",
+            "type": "knight"
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+        
+    },
+    {
+        "id": 63,
+        "name": "H7",
+        "position": {
+            "x": 7,
+            "y": 7
+        },
+        "hasPiece": true,
+        "piece": {
+            "color": "black",
+            "type": "rook"
+        },
+        "canBeMoved": false,
+        "canBeTaken": false,
+        "canMoveHere": false
+    }
+]
