@@ -29,51 +29,36 @@ export default function App () {
                 // Show all possible moves
                 // Show all possible captures
 
-        if (selectedField !== "") {
-
-            if (fieldInfo.canMoveHere === true || fieldInfo.canBeTaken === true) {
-                
-                
-
-            } else if (fieldInfo.canBeMoved && fieldInfo.piece.color === currentPlayer) {
-                
-
-                setSelectedField(fieldInfo.name)
-
-            }
-
-        } else {
+        if (fieldInfo.canBeMoved === true) {
 
             if (fieldInfo.canBeMoved && fieldInfo.piece.color === currentPlayer) {
 
                 const selectedPieceMovement = pieceMovement.filter((piece) => piece.name === fieldInfo.piece.type)
-
-
-                let currentBoardState = [...chessState]
+                const currentBoardState = [...chessState]
                 let updatedChessState
 
                 console.log("step 1")
+                console.log(selectedPieceMovement)
 
                 if (selectedPieceMovement[0]?.fullRange === true) {
                     // calculate movement for Rook, Bishop and Queen
-                    updatedChessState = currentBoardState
+                    
+
+                    
                 } else {
                     // calculate movement for Knight, King and Pawns
                     console.log("step 2")
-                    for (let i=0 ; i < selectedPieceMovement[0]?.movement.length ; i++ ) {
-
-                        updatedChessState = currentBoardState.map((field:any) => {
-                            if (fieldInfo.position.x + selectedPieceMovement[0]?.movement[i].x === field.position.x && 
-                                fieldInfo.position.y + selectedPieceMovement[0]?.movement[i].y === field.position.y) {
-                                    
-                                    console.log("yep! - " + field.id)
-                                    return { ...field, canMoveHere: true}
-                                }
-                                return field
-                                
-                            })
-                            
-                        }
+                    updatedChessState = currentBoardState.map((field:any) => 
+                        selectedPieceMovement[0]?.movement.some(selectedPiece => selectedPiece.x + fieldInfo.position.x === field.position.x && 
+                        selectedPiece.y + fieldInfo.position.y === field.position.y)
+                        ? field.hasPiece === true
+                            ? field.piece.color !== currentPlayer
+                                ? {...field, canMoveHere: true, canBeTaken: true}
+                                : {...field, canMoveHere: false}
+                            : {...field, canMoveHere: true}
+                        : {...field, canMoveHere: false}
+                    )
+                        
                 }
                 
                 console.log(updatedChessState)
@@ -81,12 +66,39 @@ export default function App () {
                 setChessState(updatedChessState)
 
             }
+
+        } else {
+
+            if (fieldInfo.canMoveHere === true || fieldInfo.canBeTaken === true) {
+                
+                const currentBoardState = [...chessState]
+
+                if (fieldInfo.canMoveHere === true && fieldInfo.hasPiece === false) {
+
+                    const updatedChessState = currentBoardState.map((field:any) => 
+                        field.id === fieldInfo.id 
+                        ? {...field, hasPiece: true, piece: {color: currentPlayer, type: "king"}, canMoveHere: false, canBeTaken: false } 
+                        : {...field, canMoveHere: false, canBeTaken: false}
+                    )
+
+                    setChessState(updatedChessState)
+                    setSelectedField("")
+                    if (currentPlayer === "white") {
+                        setCurrentPlayer("black")
+                    } else if (currentPlayer === "black")
+                        setCurrentPlayer("white")
+                }
+
+
+            } 
         }
     }
 
 
     return (
-        <main className="w-screen h-screen bg-gray-600 flex justify-center items-center">
+        <main className="w-screen h-screen bg-gray-600 flex flex-col justify-center items-center gap-4">
+
+            <h1 className="text-2xl text-white">Current Turn: {currentPlayer}</h1>
 
             <div className="h-[514px] w-[514px] flex flex-wrap-reverse border">
                 {
@@ -94,15 +106,18 @@ export default function App () {
 
                         <div 
                             className={`
-                                w-16 h-16 border border-black flex justify-center items-center text-red-600
+                                w-16 h-16 border border-black flex justify-center items-center transition-all
                                 ${
+                                    
                                     fieldInfo.canMoveHere === true
                                     ? "bg-green-600"
-                                    : selectedField === fieldInfo.name 
-                                        ? "bg-orange-500" 
-                                        : (fieldInfo.position.x + fieldInfo.position.y) % 2 === 0
-                                            ? "bg-gray-800"
-                                            : "bg-white"
+                                    : fieldInfo.canBeTaken === true 
+                                        ? "bg-red-600"
+                                        : selectedField === fieldInfo.name 
+                                            ? "bg-orange-500" 
+                                            : (fieldInfo.position.x + fieldInfo.position.y) % 2 === 0
+                                                ? "bg-gray-800"
+                                                : "bg-white"
                                 }
                             `}
                             onClick={() => handleClick(fieldInfo)}
@@ -113,7 +128,7 @@ export default function App () {
                                 ? <img src={"/chess-figures/"+fieldInfo.piece.type+"-w.svg"} />
                                 : fieldInfo.hasPiece === true && fieldInfo.piece.color === "black"
                                     ? <img src={"/chess-figures/"+fieldInfo.piece.type+"-b.svg"} />
-                                    : fieldInfo.id
+                                    : null
                                 
                             }
                         </div>
