@@ -46,10 +46,24 @@ export default function App () {
                 console.log("step 1")
                 console.log(selectedPieceMovement)
 
+                // if (false === true) {
                 if (selectedPieceMovement[0]?.fullRange === true) {
                     // calculate movement for Rook, Bishop and Queen
                     
-                    return
+                    // return
+
+                    // function (selectedPieceMovement, targetField) 
+
+                    updatedChessState = currentBoardState.map((field:FieldInfo) => 
+                        selectedPieceMovement[0]?.movement.some(selectedPiece => selectedPiece.x + fieldInfo.position.x === field.position.x && 
+                        selectedPiece.y + fieldInfo.position.y === field.position.y)
+                        ? field.hasPiece === true
+                            ? field.piece.color !== currentPlayer
+                                ? {...field, canMoveHere: true, canBeTaken: true}
+                                : {...field, canMoveHere: false}
+                            : {...field, canMoveHere: true}
+                        : {...field, canMoveHere: false}
+                    )
 
                     
                 } else {
@@ -65,7 +79,6 @@ export default function App () {
                             : {...field, canMoveHere: true}
                         : {...field, canMoveHere: false}
                     )
-                        
                 }
                 
                 console.log(updatedChessState)
